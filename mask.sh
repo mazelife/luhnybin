@@ -1,4 +1,3 @@
 #!/bin/sh
 
-# Call your program here instead of cat.
-cat
+runghc luhny.hs "$@"
