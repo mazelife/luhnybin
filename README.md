@@ -49,6 +49,7 @@ I already wrote a test suite, so you can jump straight to the fun part: writing 
 
 Windows users should use [Cygwin](http://www.cygwin.com/) to run the tests. Please make it easy for others to check out and run your solution.
 
+
 The first time you execute `run.sh`, you'll see a test failure:
 
     $ ./run.sh 
@@ -69,3 +70,16 @@ This isn't a contest, but an innovative solution could score you interviews at S
 Once we have enough interesting submissions, I'll summarize the results in a followup [blog](http://corner.squareup.com/) post and open source our own Java-based implementation. In the mean time, if you enjoy working with talented people on challenging problems like this, email your résumé to <a href="mailto:luhnybin@squareup.com">luhnybin@squareup.com</a>.
 
 Good luck!
+
+
+Installation Instructions
+--------------------------
+
+Assuming you've got GHC and Cabal installed, you might need to run:
+
+    $ cabal install regex-tdfa
+
+
+After that you should be able to run:
+
+    $ ./run.sh
